@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04100c"/>
+      <stop offset="100%" stop-color="#07211a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4be39e"/>
+      <stop offset="100%" stop-color="#43d4d6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+
+  <!-- subtle grid -->
+  <g opacity="0.08">
+    <path d="M0 128h512M0 256h512M0 384h512" stroke="#fff" stroke-width="1"/>
+    <path d="M128 0v512M256 0v512M384 0v512" stroke="#fff" stroke-width="1"/>
+  </g>
+
+  <!-- glow behind diamond -->
+  <circle cx="256" cy="210" r="120" fill="url(#accent)" opacity="0.15" filter="blur(40px)"/>
+
+  <!-- diamond mark -->
+  <g transform="translate(256, 200)">
+    <!-- outer diamond -->
+    <path d="M0 -80 L70 0 L0 80 L-70 0 Z" fill="none" stroke="url(#accent)" stroke-width="4" opacity="0.6"/>
+    <!-- inner diamond -->
+    <path d="M0 -60 L52 0 L0 60 L-52 0 Z" fill="url(#accent)" opacity="0.9"/>
+    <!-- highlight -->
+    <path d="M0 -60 L52 0 L0 0 Z" fill="#fff" opacity="0.15"/>
+  </g>
+
+  <!-- text -->
+  <text x="256" y="380" text-anchor="middle" font-family="Geist, system-ui, sans-serif" font-size="56" font-weight="600" letter-spacing="-0.02em" fill="#e8fff6">chronicle</text>
+  <text x="256" y="420" text-anchor="middle" font-family="Geist Mono, monospace" font-size="16" letter-spacing="0.12em" fill="#4be39e" opacity="0.8">BROWSER INTELLIGENCE</text>
+</svg>
