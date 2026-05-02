@@ -16,13 +16,6 @@
 
 Chronicle connects directly to your local Chrome `History` SQLite database, aggregates visits, categorises domains, and renders everything in a real-time dashboard. It is designed as a **portfolio piece** demonstrating advanced React patterns, custom data visualisation, and polished UI craft.
 
-<!-- SCREENSHOT PLACEHOLDER 1 -->
-<!-- Replace with: ./docs/screenshots/hero-dark.png -->
-![Hero Dark Mode](https://via.placeholder.com/1200x700/04100c/4be39e?text=Hero+Screenshot+%E2%80%94+Dark+Mode)
-
-<!-- SCREENSHOT PLACEHOLDER 2 -->
-<!-- Replace with: ./docs/screenshots/hero-light.png -->
-![Hero Light Mode](https://via.placeholder.com/1200x700/eef5f1/059669?text=Hero+Screenshot+%E2%80%94+Light+Mode)
 
 ---
 
@@ -83,9 +76,6 @@ browser-history-viz/
 └── README.md
 ```
 
-<!-- ARCHITECTURE DIAGRAM PLACEHOLDER -->
-<!-- Replace with: ./docs/diagrams/architecture.png -->
-![Architecture](https://via.placeholder.com/800x400/04100c/4be39e?text=Architecture+Diagram)
 
 ---
 
@@ -116,19 +106,6 @@ npm run lint         # eslint pass
 
 ---
 
-## Screenshots
-
-<!-- Replace each placeholder with a real screenshot in ./docs/screenshots/ -->
-
-| Widget | Preview |
-|--------|---------|
-| **Stat Cards + Productivity Ring** | ![Stats](https://via.placeholder.com/600x300/04100c/4be39e?text=Stat+Cards) |
-| **Activity Heatmap** | ![Heatmap](https://via.placeholder.com/600x300/04100c/4be39e?text=Activity+Heatmap) |
-| **Daily Trend + Category Donut** | ![Trend](https://via.placeholder.com/600x300/04100c/4be39e?text=Daily+Trend+%26+Donut) |
-| **Top Sites + Productivity by Hour** | ![Sites](https://via.placeholder.com/600x300/04100c/4be39e?text=Top+Sites) |
-| **Session List (expanded)** | ![Sessions](https://via.placeholder.com/600x300/04100c/4be39e?text=Session+List) |
-
----
 
 ## Performance Notes
 
@@ -155,6 +132,4 @@ MIT — built for demonstration and personal analytics.
 
 ---
 
-> Built by **[Your Name]** — frontend engineer passionate about data viz, motion design, and craft.
->
-> [Portfolio](https://your-portfolio.dev) · [LinkedIn](https://linkedin.com/in/your-profile) · [Email](mailto:you@example.com)
+> Built by **Bartosz Wójs** 
